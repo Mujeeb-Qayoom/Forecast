@@ -27,7 +27,7 @@ hbs.registerPartials(partialFiles);
  
 app.get('',(req,res) =>{
   res.render('index', {
-    title :"Weather App for",
+    title :"Weather App",
     author : "Created By Mujeeb"
    })
 })
